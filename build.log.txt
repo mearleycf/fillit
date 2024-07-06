@@ -1,0 +1,34 @@
+# This file contains the result of Yarn building a package (wxt-starter@workspace:.)
+# Script name: postinstall
+
+
+WXT 0.18.10
+✖ Command failed after 217 ms
+
+ ERROR  @sveltejs/vite-plugin-svelte-inspector tried to access vite (a peer dependency) but it isn't provided by its ancestors; this makes the require call ambiguous and unsound.
+
+Required package: vite (via "vite/package.json")
+Required by: @sveltejs/vite-plugin-svelte-inspector@virtual:439d6be11557824cb0fbd82d656461bc6b291f00189b83dcb7f740b13fb62bc8f7376c54c16d6731462f19e0823275204f992b254a6f5f3da105f1834008c9ec#npm:2.1.0 (via /Users/mikeearley/code/fillit/.yarn/__virtual__/@sveltejs-vite-plugin-svelte-inspector-virtual-50127628bf/3/.local/share/yarn/berry/cache/@sveltejs-vite-plugin-svelte-inspector-npm-2.1.0-05740412e7-10c0.zip/node_modules/@sveltejs/vite-plugin-svelte-inspector/src/index.js)
+
+Ancestor breaking the chain: @wxt-dev/module-svelte@virtual:db529b5603c9d28266cb0120c463907d3b63cdcd20b747dbe4c8b6864636cb4a30d2aec7ff851987f1bb08af27a76338eab25e606c7c7694c411be72f3414b16#npm:1.0.0
+
+
+
+  
+  Required package: vite (via "vite/package.json")
+  Required by: @sveltejs/vite-plugin-svelte-inspector@virtual:439d6be11557824cb0fbd82d656461bc6b291f00189b83dcb7f740b13fb62bc8f7376c54c16d6731462f19e0823275204f992b254a6f5f3da105f1834008c9ec#npm:2.1.0 (via .yarn/__virtual__/@sveltejs-vite-plugin-svelte-inspector-virtual-50127628bf/3/.local/share/yarn/berry/cache/@sveltejs-vite-plugin-svelte-inspector-npm-2.1.0-05740412e7-10c0.zip/node_modules/@sveltejs/vite-plugin-svelte-inspector/src/index.js)
+  
+  Ancestor breaking the chain: @wxt-dev/module-svelte@virtual:db529b5603c9d28266cb0120c463907d3b63cdcd20b747dbe4c8b6864636cb4a30d2aec7ff851987f1bb08af27a76338eab25e606c7c7694c411be72f3414b16#npm:1.0.0
+  
+  
+  at makeError (.pnp.cjs:11747:34)
+  at resolveToUnqualified (.pnp.cjs:13346:21)
+  at Object.resolveToUnqualified (.pnp.cjs:13575:26)
+  at resolve$1 (.pnp.loader.mjs:2033:31)
+  at nextResolve (node:internal/modules/esm/hooks:866:28)
+  at Hooks.resolve (node:internal/modules/esm/hooks:304:30)
+  at handleMessage (node:internal/modules/esm/worker:196:24)
+  at checkForMessages (node:internal/modules/esm/worker:138:28)
+  at process.<anonymous> (node:internal/modules/esm/worker:157:5)
+  at process.emit (node:events:519:28)
+
