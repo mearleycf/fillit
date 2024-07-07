@@ -1,8 +1,8 @@
 {
-  "name": "wxt-starter",
-  "description": "manifest.json description",
+  "name": "fillit",
+  "description": "A simple extension for completing forms, like job applications.",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "wxt",
     "dev:firefox": "wxt -b firefox",
